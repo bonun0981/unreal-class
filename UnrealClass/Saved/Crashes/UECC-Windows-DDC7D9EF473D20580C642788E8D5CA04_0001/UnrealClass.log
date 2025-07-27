@@ -3254,31 +3254,3 @@ Script Stack (0 frames) :
 
 
 [2025.07.27-09.18.04:933][456]LogWindows: Windows GetLastError: The operation completed successfully. (0)
-[2025.07.27-09.18.09:110][456]LogWindows: Error: === Critical error: ===
-[2025.07.27-09.18.09:110][456]LogWindows: Error: 
-[2025.07.27-09.18.09:110][456]LogWindows: Error: Assertion failed: InitState == EWorldPartitionInitState::Uninitialized [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\WorldPartition\WorldPartition.cpp] [Line: 1728] 
-[2025.07.27-09.18.09:110][456]LogWindows: Error: 
-[2025.07.27-09.18.09:110][456]LogWindows: Error: 
-[2025.07.27-09.18.09:110][456]LogWindows: Error: 
-[2025.07.27-09.18.09:110][456]LogWindows: Error: [Callstack] 0x00007ffb6f994018 UnrealEditor-Core.dll!UnknownFunction []
-[2025.07.27-09.18.09:110][456]LogWindows: Error: [Callstack] 0x00007ffb14d041a3 UnrealEditor-Engine.dll!UnknownFunction []
-[2025.07.27-09.18.09:110][456]LogWindows: Error: [Callstack] 0x00007ffb6edc3a62 UnrealEditor-CoreUObject.dll!UnknownFunction []
-[2025.07.27-09.18.09:110][456]LogWindows: Error: [Callstack] 0x00007ffb6ece81dc UnrealEditor-CoreUObject.dll!UnknownFunction []
-[2025.07.27-09.18.09:110][456]LogWindows: Error: [Callstack] 0x00007ffb6ebd7e1d UnrealEditor-CoreUObject.dll!UnknownFunction []
-[2025.07.27-09.18.09:110][456]LogWindows: Error: [Callstack] 0x00007ffb6ec724a8 UnrealEditor-CoreUObject.dll!UnknownFunction []
-[2025.07.27-09.18.09:110][456]LogWindows: Error: [Callstack] 0x00007ffb6ec15589 UnrealEditor-CoreUObject.dll!UnknownFunction []
-[2025.07.27-09.18.09:110][456]LogWindows: Error: [Callstack] 0x00007ffb30d5707c UnrealEditor-UnrealEd.dll!UnknownFunction []
-[2025.07.27-09.18.09:110][456]LogWindows: Error: [Callstack] 0x00007ffb30fee5f3 UnrealEditor-UnrealEd.dll!UnknownFunction []
-[2025.07.27-09.18.09:110][456]LogWindows: Error: [Callstack] 0x00007ffb315955ce UnrealEditor-UnrealEd.dll!UnknownFunction []
-[2025.07.27-09.18.09:110][456]LogWindows: Error: [Callstack] 0x00007ff75ef39ce4 UnrealEditor.exe!UnknownFunction []
-[2025.07.27-09.18.09:110][456]LogWindows: Error: [Callstack] 0x00007ff75ef5e5ac UnrealEditor.exe!UnknownFunction []
-[2025.07.27-09.18.09:110][456]LogWindows: Error: [Callstack] 0x00007ff75ef5e6ba UnrealEditor.exe!UnknownFunction []
-[2025.07.27-09.18.09:110][456]LogWindows: Error: [Callstack] 0x00007ff75ef6209e UnrealEditor.exe!UnknownFunction []
-[2025.07.27-09.18.09:110][456]LogWindows: Error: [Callstack] 0x00007ff75ef74e44 UnrealEditor.exe!UnknownFunction []
-[2025.07.27-09.18.09:110][456]LogWindows: Error: [Callstack] 0x00007ff75ef780fa UnrealEditor.exe!UnknownFunction []
-[2025.07.27-09.18.09:110][456]LogWindows: Error: [Callstack] 0x00007ffbd3a5e8d7 KERNEL32.DLL!UnknownFunction []
-[2025.07.27-09.18.09:110][456]LogWindows: Error: 
-[2025.07.27-09.18.09:114][456]LogExit: Executing StaticShutdownAfterError
-[2025.07.27-09.18.09:120][456]LogWindows: FPlatformMisc::RequestExit(1, LaunchWindowsStartup.ExceptionHandler)
-[2025.07.27-09.18.09:120][456]LogWindows: FPlatformMisc::RequestExitWithStatus(1, 3, LaunchWindowsStartup.ExceptionHandler)
-[2025.07.27-09.18.09:120][456]LogCore: Engine exit requested (reason: Win RequestExit)
