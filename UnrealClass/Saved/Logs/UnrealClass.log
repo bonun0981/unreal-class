@@ -2679,3 +2679,420 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.07.27-08.25.04:999][198]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2136.464844
 [2025.07.27-08.25.05:291][233]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.07.27-08.25.05:292][233]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2136.748291, Update Interval: 345.992004
+[2025.07.27-08.28.14:624][923]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.07.27-08.28.14:628][923]LogContentBundle: [Untitled_1(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.07.27-08.28.14:628][923]LogWorldPartition: Display: GenerateStreaming for 'OpenWorld.Engine' started...
+[2025.07.27-08.28.14:630][923]LogWorldPartition: Display: GenerateStreaming for 'OpenWorld.Engine' took 1.745 ms (total: 21.823 ms)
+[2025.07.27-08.28.14:630][923]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.07.27-08.28.14:656][923]LogPlayLevel: Display: Creating online subsystem for client :Context_23
+[2025.07.27-08.28.14:659][923]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2025.07.27-08.28.14:686][924]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2025.07.27-08.28.14:702][924]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.07.27-08.28.14:705][924]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.759 ms (total: 50.189 ms)
+[2025.07.27-08.28.14:705][924]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019453s)
+[2025.07.27-08.28.14:705][924]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.019495s)
+[2025.07.27-08.28.14:725][924]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.07.27-08.28.14:727][924]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled_1
+[2025.07.27-08.28.14:728][924]LogWorldPartition: ULevel::OnLevelLoaded(Untitled_1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.07.27-08.28.14:728][924]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.07.27-08.28.14:728][924]LogWorldPartition: UWorldPartition::Initialize : World = /Temp/UEDPIE_0_Untitled_1.Untitled_1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.07.27-08.28.14:728][924]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.07.27-08.28.14:734][924]LogWorldPartition: Display: WorldPartition initialize took 5.419 ms (total: 229.567 ms)
+[2025.07.27-08.28.14:734][924]LogPlayLevel: PIE: World Init took: (0.006820s)
+[2025.07.27-08.28.14:734][924]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2025.07.27-08.28.14:734][924]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.07.27-08.28.14:734][924]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.07.27-08.28.14:734][924]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.07.27-08.28.14:734][924]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.07.27-08.28.14:734][924]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.07.27-08.28.14:735][924]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.07.27-08.28.14:735][924]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.07.27-08.28.14:735][924]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.07.27-08.28.14:735][924]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.07.27-08.28.14:735][924]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.07.27-08.28.14:735][924]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.07.27-08.28.14:737][924]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.07.27-08.28.14:744][924]LogAudioMixer: Display: Using Audio Hardware Device DELL E2424HS (NVIDIA High Definition Audio)
+[2025.07.27-08.28.14:745][924]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.07.27-08.28.14:745][924]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.07.27-08.28.14:745][924]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.07.27-08.28.14:745][924]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2025.07.27-08.28.14:745][924]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2025.07.27-08.28.14:746][924]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2025.07.27-08.28.14:746][924]LogInit: FAudioDevice initialized with ID 14.
+[2025.07.27-08.28.14:746][924]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2025.07.27-08.28.14:746][924]LogAudio: Display: Audio Device (ID: 14) registered with world 'Untitled_1'.
+[2025.07.27-08.28.14:746][924]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2025.07.27-08.28.14:749][924]LogLoad: Game class is 'BP_GameMode_C'
+[2025.07.27-08.28.14:750][924]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2025.07.27-15.28.14
+[2025.07.27-08.28.14:751][924]LogWorld: Bringing up level for play took: 0.001116
+[2025.07.27-08.28.14:755][924]LogStreaming: Display: FlushAsyncLoading(1251,1250,1249,1248,1247,1246,1245,1244,1243,1242,1241,1240,1239,1238,1237,1236,1235,1234,1233,1232,1231,1230,1229,1228,1227,1226,1225,1224,1223,1222,1221,1220,1219,1218,1217,1216,1215,1214,1213,1212,1211,1210,1209,1208): 44 QueuedPackages, 0 AsyncPackages
+[2025.07.27-08.28.14:897][924]PIE: Server logged in
+[2025.07.27-08.28.14:899][924]PIE: Play in editor total start time 0.271 seconds.
+[2025.07.27-08.28.15:180][935]LogPSOHitching: Encountered 550 PSO creation hitches so far (181 graphics, 369 compute). 0 of them were precached.
+[2025.07.27-08.28.21:848][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.27-08.28.21:848][635]LogWorld: BeginTearingDown for /Temp/UEDPIE_0_Untitled_1
+[2025.07.27-08.28.21:854][635]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2025.07.27-08.28.21:854][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.27-08.28.21:854][635]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/UEDPIE_0_Untitled_1.Untitled_1
+[2025.07.27-08.28.21:855][635]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.07.27-08.28.21:858][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.27-08.28.21:882][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.27-08.28.21:883][635]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2025.07.27-08.28.21:883][635]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14, StreamState=4
+[2025.07.27-08.28.21:885][635]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14, StreamState=2
+[2025.07.27-08.28.21:892][635]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.07.27-08.28.22:184][636]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2025.07.27-08.28.26:412][919]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@2] File [Scalability]
+[2025.07.27-08.28.26:412][919]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2025.07.27-08.28.26:412][919]LogConfig: Set CVar [[r.ViewDistanceScale:0.8]]
+[2025.07.27-08.28.26:412][919]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@2] File [Scalability]
+[2025.07.27-08.28.26:412][919]LogConfig: Set CVar [[r.FXAA.Quality:3]]
+[2025.07.27-08.28.26:412][919]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:2]]
+[2025.07.27-08.28.26:412][919]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2025.07.27-08.28.26:412][919]LogConfig: Set CVar [[r.TSR.ReprojectionField:1]]
+[2025.07.27-08.28.26:412][919]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [Scalability]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:4]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.04]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Shadow.DistanceScale:0.85]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:0.8]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:16]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:64]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:2048]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2025.07.27-08.28.26:413][919]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@2] File [Scalability]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.LumenScene.DirectLighting.MaxLightsPerTile:4]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.LumenScene.DirectLighting.UpdateFactor:64]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.LumenScene.Radiosity.UpdateFactor:128]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:8]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:3]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:0]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:16]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:32]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.NumAdaptiveProbes:16]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:1]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:1]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:0]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.BentNormal:0]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:64]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:0]]
+[2025.07.27-08.28.26:413][919]LogConfig: Applying CVar settings from Section [ReflectionQuality@2] File [Scalability]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:2]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0.2]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.MaxRoughnessToEvaluateRoughSpecularForFoliage:0.4]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.NumSamples:3]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.MinWeight:1]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:0]]
+[2025.07.27-08.28.26:413][919]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [Scalability]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.6]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.FastBlurThreshold:3]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Filter.SizeScale:0.8]]
+[2025.07.27-08.28.26:413][919]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2025.07.27-08.28.26:414][919]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2025.07.27-08.28.26:414][919]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2025.07.27-08.28.26:414][919]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:1    ; no background occlusion]]
+[2025.07.27-08.28.26:414][919]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:0      ; no bokeh simulation when scattering]]
+[2025.07.27-08.28.26:414][919]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.04        ; only a maximum of 4% of scattered bokeh]]
+[2025.07.27-08.28.26:414][919]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2025.07.27-08.28.26:414][919]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2025.07.27-08.28.26:414][919]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [Scalability]
+[2025.07.27-08.28.26:414][919]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2025.07.27-08.28.26:414][919]LogConfig: Set CVar [[r.MaxAnisotropy:4]]
+[2025.07.27-08.28.26:414][919]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2025.07.27-08.28.26:414][919]LogConfig: Set CVar [[r.Streaming.PoolSize:800]]
+[2025.07.27-08.28.26:414][919]LogConfig: Applying CVar settings from Section [EffectsQuality@2] File [Scalability]
+[2025.07.27-08.28.26:414][919]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:48]]
+[2025.07.27-08.28.26:414][919]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2025.07.27-08.28.26:414][919]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:1]]
+[2025.07.27-08.28.26:414][919]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2025.07.27-08.28.26:414][919]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2025.07.27-08.28.26:414][919]LogConfig: Set CVar [[r.SSS.SampleSet:1]]
+[2025.07.27-08.28.26:414][919]LogConfig: Set CVar [[r.SSS.Quality:-1]]
+[2025.07.27-08.28.26:414][919]LogConfig: Set CVar [[r.SSGI.Quality:2]]
+[2025.07.27-08.28.26:414][919]LogConfig: Set CVar [[r.EmitterSpawnRateScale:0.5]]
+[2025.07.27-08.28.26:414][919]LogConfig: Set CVar [[r.ParticleLightQuality:1]]
+[2025.07.27-08.28.26:414][919]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:2]]
+[2025.07.27-08.28.26:414][919]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:64.0]]
+[2025.07.27-08.28.26:414][919]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:64.0]]
+[2025.07.27-08.28.26:414][919]LogConfig: Set CVar [[fx.Niagara.QualityLevel:2]]
+[2025.07.27-08.28.26:414][919]LogConfig: Set CVar [[r.HeterogeneousVolumes.MaxStepCount:96]]
+[2025.07.27-08.28.26:414][919]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [Scalability]
+[2025.07.27-08.28.26:414][919]LogConfig: Set CVar [[foliage.DensityScale:0.8]]
+[2025.07.27-08.28.26:414][919]LogConfig: Set CVar [[grass.DensityScale:0.8]]
+[2025.07.27-08.28.26:414][919]LogConfig: Applying CVar settings from Section [ShadingQuality@2] File [Scalability]
+[2025.07.27-08.28.26:414][919]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2025.07.27-08.28.26:414][919]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2025.07.27-08.28.26:414][919]LogConfig: Applying CVar settings from Section [LandscapeQuality@2] File [Scalability]
+[2025.07.27-08.28.26:454][919]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.07.27-08.28.26:477][919]LogRenderer: Display: Recreating Shadow.Virtual.PhysicalPagePool due to size or flags change. This will also drop any cached pages.
+[2025.07.27-08.28.26:554][921]LogContentStreaming: Texture pool size now 800 MB
+[2025.07.27-08.28.26:554][921]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="800"
+[2025.07.27-08.28.26:639][921]LogPSOHitching: Encountered 600 PSO creation hitches so far (192 graphics, 408 compute). 0 of them were precached.
+[2025.07.27-08.28.26:953][927]LogScript: Warning: Accessed None trying to read (real) property CallFunc_TryGetPawnOwner_ReturnValue in not an UClass
+	ABP_Animation_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Animation_C_755
+	Function /Game/Character/ABP_Animation.ABP_Animation_C:ExecuteUbergraph_ABP_Animation:003E
+[2025.07.27-08.28.28:496][  3]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.07.27-08.28.28:501][  3]LogContentBundle: [Untitled_1(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.07.27-08.28.28:501][  3]LogWorldPartition: Display: GenerateStreaming for 'OpenWorld.Engine' started...
+[2025.07.27-08.28.28:503][  3]LogWorldPartition: Display: GenerateStreaming for 'OpenWorld.Engine' took 1.743 ms (total: 23.567 ms)
+[2025.07.27-08.28.28:503][  3]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.07.27-08.28.28:503][  3]LogPlayLevel: Display: Creating online subsystem for client :Context_24
+[2025.07.27-08.28.28:504][  3]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2025.07.27-08.28.28:527][  4]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2025.07.27-08.28.28:543][  4]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.07.27-08.28.28:546][  4]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.774 ms (total: 53.963 ms)
+[2025.07.27-08.28.28:547][  4]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019390s)
+[2025.07.27-08.28.28:547][  4]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.019422s)
+[2025.07.27-08.28.28:565][  4]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.07.27-08.28.28:568][  4]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled_1
+[2025.07.27-08.28.28:569][  4]LogWorldPartition: ULevel::OnLevelLoaded(Untitled_1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.07.27-08.28.28:569][  4]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.07.27-08.28.28:569][  4]LogWorldPartition: UWorldPartition::Initialize : World = /Temp/UEDPIE_0_Untitled_1.Untitled_1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.07.27-08.28.28:569][  4]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.07.27-08.28.28:574][  4]LogWorldPartition: Display: WorldPartition initialize took 5.411 ms (total: 234.978 ms)
+[2025.07.27-08.28.28:574][  4]LogPlayLevel: PIE: World Init took: (0.006806s)
+[2025.07.27-08.28.28:574][  4]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2025.07.27-08.28.28:574][  4]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.07.27-08.28.28:574][  4]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.07.27-08.28.28:574][  4]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.07.27-08.28.28:574][  4]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.07.27-08.28.28:574][  4]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.07.27-08.28.28:574][  4]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.07.27-08.28.28:574][  4]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.07.27-08.28.28:574][  4]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.07.27-08.28.28:574][  4]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.07.27-08.28.28:574][  4]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.07.27-08.28.28:574][  4]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.07.27-08.28.28:576][  4]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.07.27-08.28.28:584][  4]LogAudioMixer: Display: Using Audio Hardware Device DELL E2424HS (NVIDIA High Definition Audio)
+[2025.07.27-08.28.28:584][  4]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.07.27-08.28.28:584][  4]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.07.27-08.28.28:584][  4]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.07.27-08.28.28:584][  4]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2025.07.27-08.28.28:584][  4]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2025.07.27-08.28.28:586][  4]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2025.07.27-08.28.28:586][  4]LogInit: FAudioDevice initialized with ID 15.
+[2025.07.27-08.28.28:586][  4]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2025.07.27-08.28.28:586][  4]LogAudio: Display: Audio Device (ID: 15) registered with world 'Untitled_1'.
+[2025.07.27-08.28.28:586][  4]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2025.07.27-08.28.28:588][  4]LogLoad: Game class is 'BP_GameMode_C'
+[2025.07.27-08.28.28:589][  4]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2025.07.27-15.28.28
+[2025.07.27-08.28.28:589][  4]LogWorld: Bringing up level for play took: 0.001180
+[2025.07.27-08.28.28:595][  4]LogStreaming: Display: FlushAsyncLoading(1295,1294,1293,1292,1291,1290,1289,1288,1287,1286,1285,1284,1283,1282,1281,1280,1279,1278,1277,1276,1275,1274,1273,1272,1271,1270,1269,1268,1267,1266,1265,1264,1263,1262,1261,1260,1259,1258,1257,1256,1255,1254,1253,1252): 44 QueuedPackages, 0 AsyncPackages
+[2025.07.27-08.28.28:734][  4]PIE: Server logged in
+[2025.07.27-08.28.28:736][  4]PIE: Play in editor total start time 0.235 seconds.
+[2025.07.27-08.28.42:362][869]LogStreaming: Display: UWorld::AddToWorld: updating components for /Memory/UEDPIE_0_Untitled_1_A4M0HLQB2BBX3QCKVEZW5LOBS took (less than) 26.84 ms
+[2025.07.27-08.28.44:288][981]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.27-08.28.44:288][981]LogWorld: BeginTearingDown for /Temp/UEDPIE_0_Untitled_1
+[2025.07.27-08.28.44:294][981]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2025.07.27-08.28.44:295][981]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.27-08.28.44:295][981]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/UEDPIE_0_Untitled_1.Untitled_1
+[2025.07.27-08.28.44:296][981]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.07.27-08.28.44:299][981]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.27-08.28.44:323][981]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.27-08.28.44:323][981]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2025.07.27-08.28.44:323][981]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15, StreamState=4
+[2025.07.27-08.28.44:325][981]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15, StreamState=2
+[2025.07.27-08.28.44:333][981]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.07.27-08.28.44:431][982]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2025.07.27-08.31.12:212][495]LogScript: Warning: Accessed None trying to read (real) property CallFunc_TryGetPawnOwner_ReturnValue in not an UClass
+	ABP_Animation_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Animation_C_756
+	Function /Game/Character/ABP_Animation.ABP_Animation_C:ExecuteUbergraph_ABP_Animation:003E
+[2025.07.27-08.31.12:232][496]LogScript: Warning: Accessed None trying to read (real) property CallFunc_TryGetPawnOwner_ReturnValue in not an UClass
+	ABP_Animation_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Animation_C_757
+	Function /Game/Character/ABP_Animation.ABP_Animation_C:ExecuteUbergraph_ABP_Animation:003E
+[2025.07.27-08.31.13:932][588]LogScript: Warning: Accessed None trying to read (real) property CallFunc_TryGetPawnOwner_ReturnValue in not an UClass
+	ABP_Animation_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Animation_C_758
+	Function /Game/Character/ABP_Animation.ABP_Animation_C:ExecuteUbergraph_ABP_Animation:003E
+[2025.07.27-08.31.13:952][589]LogScript: Warning: Accessed None trying to read (real) property CallFunc_TryGetPawnOwner_ReturnValue in not an UClass
+	ABP_Animation_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Animation_C_759
+	Function /Game/Character/ABP_Animation.ABP_Animation_C:ExecuteUbergraph_ABP_Animation:003E
+[2025.07.27-08.31.14:231][603]LogScript: Warning: Accessed None trying to read (real) property CallFunc_TryGetPawnOwner_ReturnValue in not an UClass
+	ABP_Animation_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Animation_C_760
+	Function /Game/Character/ABP_Animation.ABP_Animation_C:ExecuteUbergraph_ABP_Animation:003E
+[2025.07.27-08.31.14:251][604]LogScript: Warning: Accessed None trying to read (real) property CallFunc_TryGetPawnOwner_ReturnValue in not an UClass
+	ABP_Animation_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Animation_C_761
+	Function /Game/Character/ABP_Animation.ABP_Animation_C:ExecuteUbergraph_ABP_Animation:003E
+[2025.07.27-08.31.14:273][605]LogScript: Warning: Accessed None trying to read (real) property CallFunc_TryGetPawnOwner_ReturnValue in not an UClass
+	ABP_Animation_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Animation_C_762
+	Function /Game/Character/ABP_Animation.ABP_Animation_C:ExecuteUbergraph_ABP_Animation:003E
+[2025.07.27-08.31.14:294][606]LogScript: Warning: Accessed None trying to read (real) property CallFunc_TryGetPawnOwner_ReturnValue in not an UClass
+	ABP_Animation_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Animation_C_763
+	Function /Game/Character/ABP_Animation.ABP_Animation_C:ExecuteUbergraph_ABP_Animation:003E
+[2025.07.27-08.31.14:701][628]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2025.07.27-08.31.36:605][768]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2528.068359
+[2025.07.27-08.31.37:605][771]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.07.27-08.31.37:605][771]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2528.737061, Update Interval: 314.260681
+[2025.07.27-08.31.50:394][184]LogStreaming: Display: FlushAsyncLoading(1298): 1 QueuedPackages, 0 AsyncPackages
+[2025.07.27-08.31.50:427][184]LogInterchangeEngine: Display: Interchange start importing source [D:/661310562/Part 02/Animation/Action Adventure Pack/falling idle.fbx]
+[2025.07.27-08.31.50:512][184]LogInterchangePipeline: Warning: UInterchangeGenericAnimationPipeline: Cannot execute pre-import pipeline because importing animation only requires a valid skeleton.
+[2025.07.27-08.31.50:524][184]LogInterchangePipeline: Warning: UInterchangeGenericAnimationPipeline: Cannot execute pre-import pipeline because importing animation only requires a valid skeleton.
+[2025.07.27-08.32.02:091][184]LogSlate: Window 'Import Content' being destroyed
+[2025.07.27-08.32.02:109][184]LogInterchangeEngine: [Pending] Importing
+[2025.07.27-08.32.02:426][187]LogStreaming: Display: FlushAsyncLoading(1306): 1 QueuedPackages, 0 AsyncPackages
+[2025.07.27-08.32.02:463][188]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Character/Animation/falling_idle.falling_idle (Required Memory Estimate: 0.48 MB)
+[2025.07.27-08.32.02:469][188]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Character/Animation/falling_idle.falling_idle (Required Memory Estimate: 0.48 MB)
+[2025.07.27-08.32.02:474][188]LogAnimationCompression: Display: Storing compressed animation data for /Game/Character/Animation/falling_idle.falling_idle, at AnimationSequence/2a88a815e53a553bb604cdd32c5892efa87d4792
+[2025.07.27-08.32.02:479][188]LogInterchangeEngine: Display: Interchange import completed [D:/661310562/Part 02...ction Adventure Pack/falling idle.fbx]
+[2025.07.27-08.32.02:479][188]LogInterchangeEngine: [Pending] Importing -  (1)
+[2025.07.27-08.32.02:479][188]LogInterchangeEngine: [Pending] Importing -  (1)
+[2025.07.27-08.32.02:479][188]LogInterchangeEngine: Display: Interchange start importing source [D:/661310562/Part 02/Animation/Action Adventure Pack/jumping up.fbx]
+[2025.07.27-08.32.02:692][193]LogStreaming: Display: FlushAsyncLoading(1307): 1 QueuedPackages, 0 AsyncPackages
+[2025.07.27-08.32.02:704][194]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Character/Animation/jumping_up.jumping_up (Required Memory Estimate: 0.31 MB)
+[2025.07.27-08.32.02:705][194]LogAnimationCompression: Display: Storing compressed animation data for /Game/Character/Animation/jumping_up.jumping_up, at AnimationSequence/fb13d858a45818132c5402b8872d082acf4f65bd
+[2025.07.27-08.32.02:715][194]LogInterchangeEngine: Display: Interchange import completed [D:/661310562/Part 02...ction Adventure Pack/jumping up.fbx]
+[2025.07.27-08.32.02:731][194]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.07.27-08.32.02:731][194]LogInterchangeEngine: [Success] Import Done
+[2025.07.27-08.32.05:935][264]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.07.27-08.32.05:936][264]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.026
+[2025.07.27-08.32.05:938][264]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/Animation/falling_idle] ([1] browsable assets)...
+[2025.07.27-08.32.05:969][264]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Character/Animation/falling_idle.falling_idle]
+[2025.07.27-08.32.05:969][264]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/Animation/falling_idle]
+[2025.07.27-08.32.05:982][264]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Character/Animation/falling_idle_Auto3
+[2025.07.27-08.32.05:982][264]LogSavePackage: Moving '../../../../../../Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Saved/falling_idle_Auto3B23A971142737C44FA4BB4A24BB9C6ED.tmp' to '../../../../../../Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Saved/Autosaves/Game/Character/Animation/falling_idle_Auto3.uasset'
+[2025.07.27-08.32.05:983][264]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/Animation/jumping_up] ([1] browsable assets)...
+[2025.07.27-08.32.05:993][264]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Character/Animation/jumping_up.jumping_up]
+[2025.07.27-08.32.05:993][264]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/Animation/jumping_up]
+[2025.07.27-08.32.06:003][264]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Character/Animation/jumping_up_Auto3
+[2025.07.27-08.32.06:003][264]LogSavePackage: Moving '../../../../../../Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Saved/jumping_up_Auto30705AA7E47E7708325608188B4284117.tmp' to '../../../../../../Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Saved/Autosaves/Game/Character/Animation/jumping_up_Auto3.uasset'
+[2025.07.27-08.32.06:003][264]LogFileHelpers: Auto-saving content packages took 0.066
+[2025.07.27-08.33.02:513][460]LogStreaming: Display: FlushAsyncLoading(1308): 1 QueuedPackages, 0 AsyncPackages
+[2025.07.27-08.33.02:565][460]LogInterchangeEngine: Display: Interchange start importing source [D:/661310562/Part 02/Animation/Action Adventure Pack/hard landing.fbx]
+[2025.07.27-08.33.02:643][460]LogInterchangePipeline: Warning: UInterchangeGenericAnimationPipeline: Cannot execute pre-import pipeline because importing animation only requires a valid skeleton.
+[2025.07.27-08.33.02:654][460]LogInterchangePipeline: Warning: UInterchangeGenericAnimationPipeline: Cannot execute pre-import pipeline because importing animation only requires a valid skeleton.
+[2025.07.27-08.33.07:410][460]LogSlate: Window 'Import Content' being destroyed
+[2025.07.27-08.33.07:442][460]LogInterchangeEngine: [Pending] Importing
+[2025.07.27-08.33.07:677][463]LogStreaming: Display: FlushAsyncLoading(1309): 1 QueuedPackages, 0 AsyncPackages
+[2025.07.27-08.33.07:733][464]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Character/Animation/hard_landing.hard_landing (Required Memory Estimate: 0.97 MB)
+[2025.07.27-08.33.07:744][464]LogAnimationCompression: Display: Storing compressed animation data for /Game/Character/Animation/hard_landing.hard_landing, at AnimationSequence/f16401c8b64b49aba964df031ce8ed69b5e9c407
+[2025.07.27-08.33.07:744][464]LogInterchangeEngine: Display: Interchange import completed [D:/661310562/Part 02...ction Adventure Pack/hard landing.fbx]
+[2025.07.27-08.33.07:749][464]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.07.27-08.33.07:749][464]LogInterchangeEngine: [Success] Import Done
+[2025.07.27-08.33.19:944][845]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.27-08.33.19:944][845]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Character/Animation/AS_falling_idle] ([1] browsable assets)...
+[2025.07.27-08.33.19:944][845]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/Animation/AS_falling_idle]
+[2025.07.27-08.33.19:955][845]LogSavePackage: Moving output files for package: /Game/Character/Animation/AS_falling_idle
+[2025.07.27-08.33.19:955][845]LogSavePackage: Moving '../../../../../../Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Saved/AS_falling_idleEA85C8484097C5CFE4FB9CB6D1A62BBE.tmp' to '../../../../../../Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Content/Character/Animation/AS_falling_idle.uasset'
+[2025.07.27-08.33.19:957][845]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/Animation/AS_hard_landing] ([1] browsable assets)...
+[2025.07.27-08.33.20:015][845]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Character/Animation/AS_hard_landing.AS_hard_landing]
+[2025.07.27-08.33.20:015][845]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/Animation/AS_hard_landing]
+[2025.07.27-08.33.20:027][845]LogSavePackage: Moving output files for package: /Game/Character/Animation/AS_hard_landing
+[2025.07.27-08.33.20:027][845]LogSavePackage: Moving '../../../../../../Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Saved/AS_hard_landing25058D6144F1B2DCDD38F5A8861BCE92.tmp' to '../../../../../../Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Content/Character/Animation/AS_hard_landing.uasset'
+[2025.07.27-08.33.20:030][845]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Character/Animation/AS_jumping_up] ([1] browsable assets)...
+[2025.07.27-08.33.20:030][845]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/Animation/AS_jumping_up]
+[2025.07.27-08.33.20:038][845]LogSavePackage: Moving output files for package: /Game/Character/Animation/AS_jumping_up
+[2025.07.27-08.33.20:038][845]LogSavePackage: Moving '../../../../../../Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Saved/AS_jumping_upF24799734B09E57950D261BE7EFD3B78.tmp' to '../../../../../../Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Content/Character/Animation/AS_jumping_up.uasset'
+[2025.07.27-08.33.20:040][845]LogFileHelpers: InternalPromptForCheckoutAndSave took 96.494 ms (total: 773.131 ms)
+[2025.07.27-08.33.20:102][845]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.07.27-08.33.20:121][845]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2025.07.27-08.33.20:140][845]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.07.27-08.33.20:149][845]LogSlate: Window 'Batch Renamer' being destroyed
+[2025.07.27-08.33.20:215][845]LogContentValidation: Display: Starting to validate 3 assets
+[2025.07.27-08.33.20:215][845]LogContentValidation: Enabled validators:
+[2025.07.27-08.33.20:215][845]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.27-08.33.20:215][845]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.27-08.33.20:215][845]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.27-08.33.20:215][845]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.27-08.33.20:215][845]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.27-08.33.20:215][845]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.27-08.33.20:215][845]AssetCheck: /Game/Character/Animation/AS_falling_idle Validating asset
+[2025.07.27-08.33.20:215][845]AssetCheck: /Game/Character/Animation/AS_hard_landing Validating asset
+[2025.07.27-08.33.20:216][845]AssetCheck: /Game/Character/Animation/AS_jumping_up Validating asset
+[2025.07.27-08.33.20:232][845]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Saved/SourceControl/UncontrolledChangelists.json
+[2025.07.27-08.36.02:736][877]LogPSOHitching: Encountered 650 PSO creation hitches so far (200 graphics, 450 compute). 0 of them were precached.
+[2025.07.27-08.37.22:758][245]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2874.235352
+[2025.07.27-08.37.23:050][280]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.07.27-08.37.23:050][280]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2874.519043, Update Interval: 315.842773
+[2025.07.27-08.42.08:100][729]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.07.27-08.42.08:104][729]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.036
+[2025.07.27-08.42.08:104][729]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Character/ABP_Animation] ([2] browsable assets)...
+[2025.07.27-08.42.08:105][729]LogScript: Warning: Accessed None trying to read (real) property CallFunc_TryGetPawnOwner_ReturnValue in not an UClass
+	ABP_Animation_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Animation_C_764
+	Function /Game/Character/ABP_Animation.ABP_Animation_C:ExecuteUbergraph_ABP_Animation:003E
+[2025.07.27-08.42.08:105][729]LogScript: Warning: Accessed None trying to read (real) property CallFunc_TryGetPawnOwner_ReturnValue in not an UClass
+	ABP_Animation_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Animation_C_764
+	Function /Game/Character/ABP_Animation.ABP_Animation_C:ExecuteUbergraph_ABP_Animation:003E
+[2025.07.27-08.42.08:190][729]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Character/ABP_Animation.ABP_Animation]
+[2025.07.27-08.42.08:190][729]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/ABP_Animation]
+[2025.07.27-08.42.08:212][729]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Character/ABP_Animation_Auto4
+[2025.07.27-08.42.08:212][729]LogSavePackage: Moving '../../../../../../Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Saved/ABP_Animation_Auto43D68A8AE4E52CC92E06CFAB6E0CDA7D3.tmp' to '../../../../../../Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Saved/Autosaves/Game/Character/ABP_Animation_Auto4.uasset'
+[2025.07.27-08.42.08:212][729]LogFileHelpers: Auto-saving content packages took 0.108
+[2025.07.27-08.43.27:303][748]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3238.750244
+[2025.07.27-08.43.27:596][783]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.07.27-08.43.27:596][783]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3239.034424, Update Interval: 338.264709
+[2025.07.27-08.44.44:284][865]LogPSOHitching: Encountered 700 PSO creation hitches so far (223 graphics, 477 compute). 0 of them were precached.
+[2025.07.27-08.44.44:434][865]LogPSOHitching: Encountered 750 PSO creation hitches so far (228 graphics, 522 compute). 0 of them were precached.
+[2025.07.27-08.44.45:783][941]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.07.27-08.44.47:770][153]LogBlueprint: Warning: [AssetLog] C:\Users\ICT68\Documents\GitHub\unreal-class\UnrealClass\Content\Character\ABP_Animation.uasset: [Compiler] jump to falling  will never be taken, please connect something to  Can Enter Transition
+[2025.07.27-08.44.47:770][153]LogBlueprint: Warning: [AssetLog] C:\Users\ICT68\Documents\GitHub\unreal-class\UnrealClass\Content\Character\ABP_Animation.uasset: [Compiler] falling to landing  will never be taken, please connect something to  Can Enter Transition
+[2025.07.27-08.44.47:770][153]LogBlueprint: Warning: [AssetLog] C:\Users\ICT68\Documents\GitHub\unreal-class\UnrealClass\Content\Character\ABP_Animation.uasset: [Compiler] walk to jump  will never be taken, please connect something to  Can Enter Transition
+[2025.07.27-08.44.47:770][153]LogBlueprint: Warning: [AssetLog] C:\Users\ICT68\Documents\GitHub\unreal-class\UnrealClass\Content\Character\ABP_Animation.uasset: [Compiler] landing to walk  will never be taken, please connect something to  Can Enter Transition
+[2025.07.27-08.44.47:770][153]LogBlueprint: Warning: [AssetLog] C:\Users\ICT68\Documents\GitHub\unreal-class\UnrealClass\Content\Character\ABP_Animation.uasset: [Compiler] landing to idel  will never be taken, please connect something to  Can Enter Transition
+[2025.07.27-08.44.47:804][153]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.07.27-08.44.49:044][295]LogBlueprint: Warning: [AssetLog] C:\Users\ICT68\Documents\GitHub\unreal-class\UnrealClass\Content\Character\ABP_Animation.uasset: [Compiler] jump to falling  will never be taken, please connect something to  Can Enter Transition
+[2025.07.27-08.44.49:044][295]LogBlueprint: Warning: [AssetLog] C:\Users\ICT68\Documents\GitHub\unreal-class\UnrealClass\Content\Character\ABP_Animation.uasset: [Compiler] falling to landing  will never be taken, please connect something to  Can Enter Transition
+[2025.07.27-08.44.49:044][295]LogBlueprint: Warning: [AssetLog] C:\Users\ICT68\Documents\GitHub\unreal-class\UnrealClass\Content\Character\ABP_Animation.uasset: [Compiler] walk to jump  will never be taken, please connect something to  Can Enter Transition
+[2025.07.27-08.44.49:044][295]LogBlueprint: Warning: [AssetLog] C:\Users\ICT68\Documents\GitHub\unreal-class\UnrealClass\Content\Character\ABP_Animation.uasset: [Compiler] landing to walk  will never be taken, please connect something to  Can Enter Transition
+[2025.07.27-08.44.49:044][295]LogBlueprint: Warning: [AssetLog] C:\Users\ICT68\Documents\GitHub\unreal-class\UnrealClass\Content\Character\ABP_Animation.uasset: [Compiler] landing to idel  will never be taken, please connect something to  Can Enter Transition
+[2025.07.27-08.44.49:081][295]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.07.27-08.44.57:608][ 24]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.07.27-08.44.59:686][130]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.07.27-08.45.11:601][762]LogActorFactory: Actor Factory attempting to spawn Class /Script/NavigationSystem.NavMeshBoundsVolume
+[2025.07.27-08.45.11:601][762]LogActorFactory: Actor Factory attempting to spawn Class /Script/NavigationSystem.NavMeshBoundsVolume
+[2025.07.27-08.45.11:614][762]LogActorFactory: Actor Factory spawned Class /Script/NavigationSystem.NavMeshBoundsVolume as actor: NavMeshBoundsVolume /Temp/Untitled_1.Untitled_1:PersistentLevel.NavMeshBoundsVolume_UAID_CC96E527B5A1897F02_1300185719
+[2025.07.27-08.45.11:615][762]LogActorFactory: Actor Factory spawned Class /Script/NavigationSystem.NavMeshBoundsVolume as actor: NavMeshBoundsVolume /Temp/Untitled_1.Untitled_1:PersistentLevel.NavMeshBoundsVolume_UAID_CC96E527B5A1897F02_1300185719
+[2025.07.27-08.45.17:371][ 60]Cmd: DELETE
+[2025.07.27-08.45.17:371][ 60]Cmd: ACTOR DELETE
+[2025.07.27-08.45.17:383][ 60]LogEditorActor: Deleted Actor: NavMeshBoundsVolume
+[2025.07.27-08.45.17:411][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.07.27-08.45.17:415][ 60]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2025.07.27-08.45.17:416][ 60]LogNavigation: Warning: ConstructTiledNavMesh: Failed to create navmesh of size 0.
+[2025.07.27-08.49.49:476][502]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3620.912842
+[2025.07.27-08.49.50:477][505]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.07.27-08.49.50:477][505]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3621.579102, Update Interval: 356.259033
+[2025.07.27-08.51.25:684][791]LogDerivedDataCache: C:/Users/ICT68/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.07.27-08.52.08:916][920]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.07.27-08.52.08:930][920]LogSavePackage: Moving output files for package: /Temp/Autosaves/Temp/Untitled_1_Auto5
+[2025.07.27-08.52.08:930][920]LogSavePackage: Moving '../../../../../../Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Saved/Untitled_1_Auto5A239B7CA4A809AB79B463A90EDA76E4A.tmp' to '../../../../../../Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Saved/Autosaves/Temp/Untitled_1_Auto5.umap'
+[2025.07.27-08.52.08:931][920]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.045
+[2025.07.27-08.52.08:931][920]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.045
+[2025.07.27-08.52.08:931][920]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Character/ABP_Animation] ([2] browsable assets)...
+[2025.07.27-08.52.08:932][920]LogScript: Warning: Accessed None trying to read (real) property CallFunc_TryGetPawnOwner_ReturnValue in not an UClass
+	ABP_Animation_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Animation_C_765
+	Function /Game/Character/ABP_Animation.ABP_Animation_C:ExecuteUbergraph_ABP_Animation:00CD
+[2025.07.27-08.52.08:932][920]LogScript: Warning: Accessed None trying to read (real) property CallFunc_TryGetPawnOwner_ReturnValue in not an UClass
+	ABP_Animation_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Animation_C_765
+	Function /Game/Character/ABP_Animation.ABP_Animation_C:ExecuteUbergraph_ABP_Animation:0036
+[2025.07.27-08.52.08:932][920]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetMovementComponent_ReturnValue in not an UClass
+	ABP_Animation_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Animation_C_765
+	Function /Game/Character/ABP_Animation.ABP_Animation_C:ExecuteUbergraph_ABP_Animation:0065
+[2025.07.27-08.52.09:030][920]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Character/ABP_Animation.ABP_Animation]
+[2025.07.27-08.52.09:030][920]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/ABP_Animation]
+[2025.07.27-08.52.09:054][920]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Character/ABP_Animation_Auto5
+[2025.07.27-08.52.09:054][920]LogSavePackage: Moving '../../../../../../Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Saved/ABP_Animation_Auto567F2B63B4FA466398EBF59B300F98D69.tmp' to '../../../../../../Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Saved/Autosaves/Game/Character/ABP_Animation_Auto5.uasset'
+[2025.07.27-08.52.09:056][920]LogFileHelpers: Auto-saving content packages took 0.124
+[2025.07.27-08.52.11:366][928]LogWindowsTextInputMethodSystem: Activated input method: Thai (Thailand) - (Keyboard).
+[2025.07.27-08.52.11:366][928]LogWindowsTextInputMethodSystem: Activated input method: Thai (Thailand) - (Keyboard).
+[2025.07.27-08.56.17:206][355]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4008.651855
+[2025.07.27-08.56.17:482][388]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.07.27-08.56.17:482][388]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4008.920410, Update Interval: 325.738098
