@@ -1,0 +1,27 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Content/NewWorld.umap",
+				"C:/Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Content/Assets/Texture/T_tv_AO_Test.uasset",
+				"C:/Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Content/Assets/Texture/T_tv_Curvature_Test.uasset",
+				"C:/Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Content/Assets/Texture/T_tv_MatID_Test.uasset",
+				"C:/Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Content/Assets/Texture/T_tv_Normal_G+_Test.uasset",
+				"C:/Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Content/Assets/Material/M_TV.uasset",
+				"C:/Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Content/Assets/TV_mesh.uasset",
+				"C:/Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Content/Assets/TV/T_tv_AO_Test.uasset",
+				"C:/Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Content/Assets/TV/T_tv_Normal_G+_Test.uasset",
+				"C:/Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Content/Assets/TV/T_tv_MatID_Test.uasset",
+				"C:/Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Content/Assets/TV/T_tv_Curvature_Test.uasset",
+				"C:/Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Content/Assets/Material/M_Chair.uasset",
+				"C:/Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Content/Assets/BarberShopChair.uasset",
+				"C:/Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Content/Assets/Material/M_Leg.uasset",
+				"C:/Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Content/Assets/Material/M_Pillow.uasset",
+				"C:/Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Content/Assets/Chair.uasset"
+			]
+		}
+	]
+}
