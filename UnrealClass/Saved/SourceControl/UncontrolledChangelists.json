@@ -5,6 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/bonun/Desktop/work/unitygame/unreal-class/UnrealClass/Content/Assets/TV_mesh.uasset",
+				"C:/Users/bonun/Desktop/work/unitygame/unreal-class/UnrealClass/Content/Character/ABP_Animation.uasset",
+				"C:/Users/bonun/Desktop/work/unitygame/unreal-class/UnrealClass/Content/Input/IMC_Input.uasset",
+				"C:/Users/bonun/Desktop/work/unitygame/unreal-class/UnrealClass/Content/Input/IA_couching.uasset",
+				"C:/Users/bonun/Desktop/work/unitygame/unreal-class/UnrealClass/Content/Input/IA_Runnig.uasset",
+				"C:/Users/bonun/Desktop/work/unitygame/unreal-class/UnrealClass/Content/Character/BP_Character.uasset",
+				"C:/Users/bonun/Desktop/work/unitygame/unreal-class/UnrealClass/Content/Character/Animation/running.uasset",
 				"C:/Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Content/NewWorld.umap",
 				"C:/Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Content/Assets/Material/M_TV.uasset",
 				"C:/Users/ICT68/Documents/GitHub/unreal-class/UnrealClass/Content/Assets/TV_mesh.uasset",
